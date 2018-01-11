@@ -3,10 +3,12 @@ package Chapter6;
 import java.util.Scanner;
 
 /**
+ * Program to convert form Dollars to another currency
  *
- * @author ls0987616
+ * @author Logan Sander
  */
 public class P6 {
+
     /**
      * Main Method
      *
@@ -41,13 +43,14 @@ public class P6 {
             } while (!resp.equalsIgnoreCase("no") && !resp.equalsIgnoreCase("yes"));
         } while (resp.equalsIgnoreCase("yes"));
     }
+
     /**
-     *  convert Method
-     * 
+     * convert Method
+     *
      * @param rate The exchange rate to another currency
-     * 
+     *
      * @param amount The amount of money being converted
-     * 
+     *
      * @return The amount of converted currency
      */
     public static double convert(double rate, double amount) {

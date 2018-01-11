@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 /**
  * Program to display the user input reversed
- * 
+ *
  * @author Logan Sander
  */
 public class C5_46 {
+
     /**
      * Main Method
      *

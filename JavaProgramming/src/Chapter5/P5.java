@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 /**
  * Program to count the number of votes for and against something
- * 
+ *
  * @author Logan Sander
  */
 public class P5 {
+
     /**
      * Main Method
      *

@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 /**
  * Program to display the outcome of rock, paper, scissors against the computer
- * 
+ *
  * @author Logan Sander
  */
 public class C5_34 {
+
     /**
      * Main Method
      *

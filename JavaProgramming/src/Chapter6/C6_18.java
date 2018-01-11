@@ -31,9 +31,9 @@ public class C6_18 {
 
     /**
      * checkLength Method
-     * 
+     *
      * @param pass The inputed password
-     * 
+     *
      * @return Either "yes" or "no" depending on validity
      */
     public static String checkLength(String pass) {
@@ -46,9 +46,9 @@ public class C6_18 {
 
     /**
      * lettersAndDIgits Method
-     * 
+     *
      * @param pass The inputed password
-     * 
+     *
      * @return Either "yes" or "no" depending on validity
      */
     public static String lettersAndDigits(String pass) {
@@ -66,10 +66,10 @@ public class C6_18 {
     }
 
     /**
-     *  containsTwoDigits Method
+     * containsTwoDigits Method
      *
      * @param pass The inputed password
-     * 
+     *
      * @return Either "yes" or "no" depending on validity
      */
     public static String containsTwoDigs(String pass) {
