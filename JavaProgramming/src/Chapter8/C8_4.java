@@ -1,13 +1,13 @@
 package Chapter8;
 
+import java.util.Scanner;
+import java.util.Arrays;
+
 /**
  * Program to display the total work hours of an employee
  *
  * @author Logan Sander
  */
-import java.util.Scanner;
-import java.util.Arrays;
-
 public class C8_4 {
 
     /**

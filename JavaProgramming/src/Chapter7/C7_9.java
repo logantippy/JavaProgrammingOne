@@ -1,12 +1,12 @@
 package Chapter7;
 
+import java.util.Scanner;
+
 /**
  * Program to display the minimum value of an array
  *
  * @author Logan Sander
  */
-import java.util.Scanner;
-
 public class C7_9 {
 
     /**

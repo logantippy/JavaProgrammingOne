@@ -1,20 +1,22 @@
 package Chapter7;
 
+import java.util.Scanner;
+
 /**
  * Program to display if two arrays are equivalent
  *
  * @author Logan Sander
  */
-import java.util.Scanner;
 
 public class C7_26 {
 
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
-        /**
-         * Main Method
-         *
-         * @param args arguments from command line prompt
-         */
+
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the length of the Array: ");
         int[] list1 = new int[input.nextInt()];

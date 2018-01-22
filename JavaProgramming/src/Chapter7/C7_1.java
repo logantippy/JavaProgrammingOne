@@ -1,11 +1,12 @@
 package Chapter7;
 
+import java.util.Scanner;
+
 /**
  * Program to display the order of scores from best to worst of students
  *
  * @author Logan Sander
  */
-import java.util.Scanner;
 
 public class C7_1 {
 

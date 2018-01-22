@@ -1,11 +1,12 @@
 package Chapter8;
 
+import java.util.Scanner;
+
 /**
  * Program to add the sales of an employee on a certain day
  *
  * @author Logan Sander
  */
-import java.util.Scanner;
 
 public class P8 {
 
@@ -38,6 +39,15 @@ public class P8 {
         System.out.println("D [" + sales[3][0] + " " + sales[3][1] + " " + sales[3][2] + " " + sales[3][3] + " " + sales[3][4] + "]");
     }
 
+    /**
+     *
+     * @param names the names of the workers
+     * @param days the days of the week
+     * @param nc the name code
+     * @param dc the day code
+     * @param rate the array of the sales
+     * @return the array
+     */
     public static double[][] placeValue(String[] names, String[] days, String nc, String dc, double[][] rate) {
         Scanner input = new Scanner(System.in);
         int row = java.util.Arrays.binarySearch(names, nc);
